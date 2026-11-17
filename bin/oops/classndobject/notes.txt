@@ -1,0 +1,14 @@
+Object oriented Programming Features:-
+---------------------------------------
+
+	1. class(User Defined DataType)
+	2. object(class type --> variable)
+		|
+	3. encapsulation
+		|
+	4. inheritance
+		|
+	5. polymorphism
+		|
+	6. abstraction
+

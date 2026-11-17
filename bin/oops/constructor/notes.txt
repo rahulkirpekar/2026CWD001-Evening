@@ -1,0 +1,26 @@
+Constructor Defination:-
+---------------------------
+	==> A constructor is a special member of a class that is automatically invoked when an object is created and is primarily used to initialize the object.
+
+Features of Constructor in Java
+---------------------------------
+==> Constructor name must be the same as the class name.
+==> It does not have a return type, not even void.
+==> It is automatically called when an object is created.
+==> It is mainly used to initialize objects.
+==> A constructor can have parameters.
+==> Constructors can be overloaded.
+==> A class can have multiple constructors with different parameter lists.
+==> If no constructor is written, Java provides a default constructor automatically.
+==> Constructors are not inherited by child classes.
+==> A constructor can call another constructor using this().
+==> A constructor can call the parent-class constructor using super().
+==> this() or super() must be the first statement inside a constructor.
+==> Constructors can have access modifiers such as public, private, protected, or default.
+==> A constructor cannot be static, abstract, or final.
+==> A constructor can perform any initialization logic, such as assigning values or validating data.
+==> Constructors can have zero or more parameters.
+==> A constructor is executed once for each object creation using new.
+==> Constructors can throw exceptions using throws.
+==> A constructor can be private, which is commonly used in patterns such as the Singleton pattern.
+==> Constructors are different from methods because they are specifically associated with object initialization.

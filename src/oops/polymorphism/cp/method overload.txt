@@ -1,0 +1,41 @@
+Polymorphism:- Ability to take more than one form(method)
+--------------
+
+	void payment(UPI)
+	void payment(COD)
+	void payment(BankTransfer)
+	void payment(Wallet)
+	void payment(OnlineBanking)
+------------------------------------------------------------------------------------------
+			Type of Polymorphism
+			--------------------
+	1. Compiletime			2. Runtime
+	-------------------		-------------------
+	==> Static Binding		==> Dynamic Binding 
+	==> Ealry Binding		==> Late Binding 
+Example:-			Example:-
+---------			---------
+	==> Method Overlodding		==> Method Overridding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

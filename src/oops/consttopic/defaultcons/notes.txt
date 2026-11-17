@@ -1,0 +1,32 @@
+Student-Object[rno name std marks]
+-----------------------------------
+
+	1. Member Function:-
+	---------------------
+		1. create object
+		2. object--> methods--[Data Store]
+
+2. Constructor:-
+-----------------
+
+create object:-
+-----------------
+		1. Data Member Memory allocation
+			|
+		2. JVM Internal ==>Implicit Default Construtor call--default values set
+			|
+		3. Default Constructor(Dm's Initialise)
+----------------------------------------------------------------------------
+
+	obj.dispData();
+
+
+
+
+
+
+
+
+
+
+

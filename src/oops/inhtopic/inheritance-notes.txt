@@ -1,0 +1,70 @@
+Inheritance:- To reduce code/logic duplication
+--------------
+	--> code/logic Reusibility.
+
+ A(Parent/Super/Base)
+ |
+ B(Child/Derived/Sub)
+
+
+class Address 
+{
+	
+}
+class Employee 
+{
+	Address addrress = new Address();
+
+}
+
+
+				Type of Relation
+				-----------------
+		1. IS-A Relation			2. HAS-A Relation --> Aggregation			
+		------------------			------------------	
+
+	Person IS-A Employee				Employee Has-A Address
+	Employee IS-A Person (100%)			
+
+		Employee IS-A Person 
+
+		Person(Parent)
+		  |
+		Employee(Child)	
+
+					
+				  IS-A Relation
+					|
+				Type of Inheritance(HH:MM:S)
+				--------------------------
+
+
+						   [By Interface]
+							|
+			-----------------------------------------------------------------
+			|								|
+		[By Java Class]								|
+			|						    --------------------------
+   -------------------------------------------------			     |			    |
+     |			|			|			     |			    |	
+1. Single	2. Multilevel		3. Hierarchical			4. Multiple		5. Hybrid 
+------------	------------		----------------		------------		------------
+
+  A(no1)		A(no1)			A(no1)			A(no1)	B(no2)			A(no1)
+  |			|			|			|	|			|
+  B(no2)		B(no2)		-----------------		---------		-----------------
+			|		|		|		    |	 		|		|
+A obj;// no1		C(no3)		B(no2)		C(no3)		    C(no3)		B(no2)		C(no3)
+B obj;// no1,no2	A obj;// no1		A obj;// no1					|		|
+			B obj;// no1,no2	B obj;// no1,no2				-----------------
+			C obj;// no1,no2,no3	C obj;// no1,no3					|
+													D(no4)
+												A obj;// no1
+												B obj;// no1,no2
+												C obj;// no1,no3
+												D obj;// no1,no2,no3,no4
+
+
+ 
+
+		
